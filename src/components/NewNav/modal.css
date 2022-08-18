@@ -1,0 +1,153 @@
+#header{
+    /* display:flex; */
+    height:10vh;
+    width: 100%;
+    
+    
+}
+
+.cta{
+    display:fixed;
+    margin: auto;
+    background-color:goldenrod;
+    color:#fff;
+    text-decoration: none;
+    padding:1.2em 3em;
+    border-radius:15em;
+    font-weight: 800;
+}
+
+.modal{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:#333;
+    display:flex;
+    color:#fff;
+
+    --opacity:0;
+    --pointer:none;
+
+    opacity:var(--opacity);
+    pointer-events:var(--pointer);
+    transition:opacity .5s;
+}
+.modal:target{
+    --opacity:1;
+    --pointer:unset;
+}
+
+
+.modal__container{
+    background: url("../../../public/img/cortina.png");
+    background-size: cover;
+    width:100%;
+    max-width:100%;
+    max-height: 90%;
+    overflow:hidden;
+    text-align:center;
+    padding:2.5em 1.5em ;
+    /* border-radius:1em; */
+}
+.modal:target   .modal__container{
+    animation:show 1s .5s backwards;
+    
+}
+@keyframes show{
+    0%{
+        transform:translateY(-150vh)
+    }
+}
+.modal__picture{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 400px;
+    margin-bottom: 2em;
+}
+.modal:target .modal__picture{
+    /* animation: scale .5s 1.5s; */
+    animation:picture-spin 1s 1s backwards;
+}
+@keyframes scale {
+    0%{
+        transform:scale(0);
+    }
+    
+}
+
+@keyframes picture-spin {
+    0% {
+    transform:scale(0);
+      transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+  }
+
+.modal__img{
+    width: 200px;;
+    display:block;
+    margin: 0 auto;
+}
+
+.modal__title{
+    font-size:2.5rem;
+    font-weight: 500;
+}
+
+.modal__title--bold{
+    font-weight: 700;
+}
+
+.modal__paragraph{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height:1.5;
+}
+
+.modal__close{
+    margin-top: 6em;
+    display:inline-block;
+    background-color: goldenrod;
+    border:1px solid goldenrod;
+    padding: 1em 2em;
+    text-decoration:none;
+    font-weight:1000;
+    color:#fff;
+    border-radius: 12em;
+    box-shadow: -10 -10 -10;
+}
+@media (max-width: 600px){
+    .modal__title{
+        font-size:1.7rem;
+    }
+}
+
+.modal__container ul{
+    margin:0 auto;
+    padding:0;
+    list-style: none;
+}
+.modal__container ul li{
+    margin-bottom:20px;   
+    transition:all 0.2s;
+}
+.modal__container ul li:hover{
+    transform: scale(1.2);  
+}
+.modal__container ul li a{
+    text-decoration:none;
+    color:#fff;
+    padding:0.5rem;
+    font-size:25px;
+    font-weight: 900;
+}
+.modal__container ul li a:hover{
+    color:goldenrod;
+    transform:scale(1.2)
+
+}

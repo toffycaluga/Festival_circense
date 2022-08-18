@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,900&family=Secular+One&display=swap');
+
+.campeonato h2{
+    /* margin-top: 4x; */
+    margin: 4px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Secular One', sans-serif;
+color:white;
+text-align: center;
+font-size: 30px;
+}
+
+.campeonato p{
+    color:#fff;
+    font-size:20px;
+    text-align: left;
+    font-weight: bolder;
+    -webkit-text-stroke:1px #000;
+    text-shadow: 0 0 10px #000;
+}
+
+.campeonato .campeonato5{
+    /* position:relative; */
+    margin-top:45px;
+    /* transform: rotate(20deg) */
+}
+.campeonato img{
+    box-shadow: 0 0 10px white;
+    border-radius: 5px;
+    width: 90%;
+    /* margin-left: 25px; */
+}
+.campeonato .campeonato2{
+    margin-top:240px;
+    width: 90%;
+    /* margin-left: 25px; */
+}
+.campeonato .campeonato1{
+    margin-top:23px;
+    width: 90%;
+    margin-left: 25px;
+}
+.campeonato .campeonato3{
+    margin-top:0;
+    width: 90%;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.campeonato .campeonato4{
+    /* margin-top:220px; */
+    width: 90%;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.sindicato {
+    background-color: inherit;
+    width: 100%;
+    color: #fff;    
+}
+.sindicato__img img{
+    width: 100%;
+    margin-left:-13px;
+}
+.sindicato p{
+    color:#fff;
+    text-align: left;
+    font-size:20px;
+    font-weight: bolder;
+    -webkit-text-stroke:1px #000;
+    text-shadow: 0 0 10px #000;
+}
+.sindicato__news p{
+    padding: 0;
+    display:contents ;
+}
+.sindicato__news img{
+    width: 100%;
+}

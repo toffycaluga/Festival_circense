@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,900&family=Secular+One&display=swap');
+
+.circo_en_pandemia{
+    position:static;
+    margin-top: 10px;
+}
+.circo_en_pandemia h2{
+    /* margin-top: 4x; */
+    margin: 4px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Secular One', sans-serif;
+color:white;
+text-align: center;
+font-size: 30px;
+}
+.circo_en_pandemia img{
+    box-shadow: 0 0 10px white;
+    border-radius: 2%;
+    margin-bottom:5px;
+    margin-left: 25px;
+    /* width: 90%; */
+    
+    
+}
+.circo_en_pandemia .pandemia1{
+    width: 60%;
+    height: 80%;
+
+    
+}
+.circo_en_pandemia .pandemia2{
+    width: 60%;
+    height: 80%;
+    margin-left: 150px;
+    margin-top: -10px;    
+}
+.circo_en_pandemia p{
+    color:#fff;
+    text-align: left;
+    font-size:25px;
+    font-weight: bolder;
+    -webkit-text-stroke:1px #000;
+    text-shadow: 0 0 10px #000;}

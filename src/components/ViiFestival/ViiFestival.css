@@ -1,0 +1,31 @@
+.vii-festival{
+    /* background: url("../../../public/img/festival7-1.png"); */
+    /* background-size:cover; */
+    width: 100%;
+}
+.vii-festival h2{
+    color: #fff;
+}
+
+.vii-festival__container .premios h4{
+    color:#fff;
+    text-shadow: 1px 1px #000;
+    font-weight:900;
+}
+.vii-festival__container .premios h3{
+    color:goldenrod;
+    text-shadow: 1px 1px #000;
+    font-weight:900;
+}
+.vii-festival__container p{
+    color:#fff;
+    text-align: left;
+ 
+    font-size:20px;
+    font-weight: bolder;
+    -webkit-text-stroke:1px #000;
+    text-shadow: 0 0 10px #000;
+}
+.vii-festival__container .premios img{
+    width: 100%;
+}

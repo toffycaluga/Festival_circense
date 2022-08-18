@@ -1,0 +1,41 @@
+.festival{
+    margin-bottom:20px;
+}
+.festival h2{
+    font-size:35px;
+    font-weight: 900;
+    color: #fff;
+    /* text-shadow:  1px goldenrod; */
+}
+.festival p{
+    color: #fff;
+   
+    color:#fff;
+    font-size:20px;
+    font-weight: bolder;
+    -webkit-text-stroke:1px #000;
+    text-shadow: 0 0 10px #000;
+}
+.f1{
+    width: 50%;
+}
+
+.festival .f0{
+    width: 25%;
+}
+.link-festival {
+    text-decoration: none;
+    color :#fff;
+    font-weight:500;
+    background-color: royalblue;
+    text-shadow:-2px -2px gray ;
+    padding:12px;
+    border-radius:2.4em;
+    /* text-shadow:1px 2px red; */
+    margin-bottom:12px;
+}
+.link-festival:hover{
+    background-color:goldenrod;
+    transform: scale(1.5);
+    transition: all .3s;
+}

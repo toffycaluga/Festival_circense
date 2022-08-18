@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,900&family=Secular+One&display=swap');
+
+.patrimonio h2{
+    /* margin-top: 4x; */
+    margin: 4px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Secular One', sans-serif;
+color:white;
+text-align: center;
+font-size: 30px;
+}
+
+
+.patrimonio__content p{
+    color:#fff;
+    text-align: left;
+    font-size:20px;
+    font-weight: bolder;
+    -webkit-text-stroke:1px #000;
+    text-shadow: 0 0 10px #000;
+}
+
+.patrimonio__content img{
+    width:350px;
+    margin: 20px;
+}
+.patrimonio__content strong {
+    font-size: 12px;
+    text-align: right;
+}
+.patrimonio__content img{
+          box-shadow: 0 0 10px white;
+        border-radius: 2%;
+    
+   
+    
+}
