@@ -75,13 +75,13 @@ que disfrutan el reencuentro con sus pares en un partido lleno de risas y carcaj
 
 <Grid container spacing={2}>
   <Grid  item xs={12} md={6}>
-  <Typography variant="body2" color="white" align='left' fontSize={14} >
+  
   <p>Este evento, lo consideran muchos 
 como punto de reencuentro entre 
 amistades que desde hace un año, 
 debido a las giras, no se ven y comparten tanto experiencias, alegrías, 
 como penas y anecdotas vividas durante el año circulando por el país.</p>
-  </Typography>
+  
       </Grid>
     <Grid item xs={12} md={6}>
 

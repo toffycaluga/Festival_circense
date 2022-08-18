@@ -26,12 +26,10 @@ function Festival() {
       <Grid container spacing={2} className='festival__container-1'>
             <Grid item xs={6} md={6}>
                     <a href='/vii-festival' className="link-festival">
-                         VII FESTIVAL INTERNACIONAL DE CIRCO
-                    
-                        </a>
+                         VII FESTIVAL </a>
             </Grid>
             <Grid item xs={6} md={6}>
-            <a href='/viii-festival' className="link-festival">VII FESTIVAL INTERNACIONAL DE CIRCO</a>
+            <a href='/viii-festival' className="link-festival">VII FESTIVAL</a>
                 
             </Grid>
       </Grid>

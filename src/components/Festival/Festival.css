@@ -23,7 +23,12 @@
 .festival .f0{
     width: 25%;
 }
+.festival__container a{
+    margin:1px;
+}
 .link-festival {
+    width: 50%;
+    margin:8px;
     text-decoration: none;
     color :#fff;
     font-weight:500;
@@ -32,10 +37,12 @@
     padding:12px;
     border-radius:2.4em;
     /* text-shadow:1px 2px red; */
-    margin-bottom:12px;
+    margin-bottom:25px;
 }
 .link-festival:hover{
     background-color:goldenrod;
-    transform: scale(1.5);
     transition: all .3s;
+}
+.link-festival a{
+    margin:15px;
 }
