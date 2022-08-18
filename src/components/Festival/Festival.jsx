@@ -29,7 +29,7 @@ function Festival() {
                          VII FESTIVAL </a>
             </Grid>
             <Grid item xs={6} md={6}>
-            <a href='/viii-festival' className="link-festival">VII FESTIVAL</a>
+            <a href='/viii-festival' className="link-festival">VIII FESTIVAL</a>
                 
             </Grid>
       </Grid>
